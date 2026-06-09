@@ -23,12 +23,38 @@ export const stats = [
 ];
 
 export const skills = [
-  { group: "Languages", items: ["TypeScript", "JavaScript", "Python", "Java", "C#", ".NET"] },
-  { group: "Frontend", items: ["React", "Next.js", "Redux Toolkit", "Zustand", "React Query", "Tailwind", "ShadCN"] },
-  { group: "Backend", items: ["Node.js", "Express", "REST", "GraphQL", "gRPC", "WebSockets"] },
-  { group: "Data", items: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Kafka"] },
-  { group: "AI / ML", items: ["LangChain", "HuggingFace", "RAG", "Embeddings", "Vector DBs"] },
-  { group: "Quality", items: ["Jest", "Cypress", "Playwright", "Git", "GitLab", "CI/CD"] },
+  {
+    group: "Languages",
+    items: ["TypeScript", "JavaScript", "Python", "Java", "C#", ".NET"],
+  },
+  {
+    group: "Frontend",
+    items: [
+      "React",
+      "Next.js",
+      "Redux Toolkit",
+      "Zustand",
+      "React Query",
+      "Tailwind",
+      "ShadCN",
+    ],
+  },
+  {
+    group: "Backend",
+    items: ["Node.js", "Express", "REST", "GraphQL", "gRPC", "WebSockets"],
+  },
+  {
+    group: "Data",
+    items: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Kafka"],
+  },
+  {
+    group: "AI / ML",
+    items: ["LangChain", "HuggingFace", "RAG", "Embeddings", "Vector DBs"],
+  },
+  {
+    group: "Quality",
+    items: ["Jest", "Cypress", "Playwright", "Git", "GitLab", "CI/CD"],
+  },
 ];
 
 export const timeline = [
@@ -44,7 +70,16 @@ export const timeline = [
       "Designed robust REST APIs with optimized data-fetching strategies for tight frontend↔backend contracts.",
       "Drive every phase of the SDLC — concept, design, deploy, monitor — in an agile environment.",
     ],
-    tech: ["React", "Node.js", "Express", "MongoDB", "TypeScript", "Next.js", "Socket.io", "RTK Query"],
+    tech: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "TypeScript",
+      "Next.js",
+      "Socket.io",
+      "RTK Query",
+    ],
   },
   {
     role: "React Frontend Developer — Trainee",
@@ -80,7 +115,14 @@ export const projects = [
     scale: "1M+ users · South Asia",
     blurb:
       "Led frontend for an e-learning platform with collaborative ebook editing and real-time annotation over WebSockets. WCAG-compliant, offline-first for low-bandwidth regions.",
-    tech: ["React", "Redux", "React Query", "WebSockets", "TypeScript", "CI/CD"],
+    tech: [
+      "React",
+      "Redux",
+      "React Query",
+      "WebSockets",
+      "TypeScript",
+      "CI/CD",
+    ],
     accent: "blue",
     preview: "/mst.png",
   },
@@ -128,18 +170,6 @@ export const projects = [
     tech: ["Next.js", "MongoDB", "NextAuth", "Shadcn/UI", "Zod"],
     accent: "blue",
     preview: "/license.png",
-  },
-  {
-    name: "MERN E-commerce",
-    kind: "Full-stack · MERN",
-    url: "https://mern-helmart-website-client.vercel.app/",
-    repo: "https://github.com/abhishek-mahato0/MERN-helmart-Website",
-    scale: "Cart · Admin · JWT",
-    blurb:
-      "Full-featured e-commerce with auth, cart, admin panel, product filtering and payment simulation. Express REST APIs, Redux state, JWT-protected routes.",
-    tech: ["MongoDB", "Express", "React", "Node.js", "Redux", "JWT"],
-    accent: "mint",
-    preview: "/helmet.png",
   },
 ];
 
