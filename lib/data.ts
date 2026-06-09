@@ -41,11 +41,42 @@ export const skills = [
   },
   {
     group: "Backend",
-    items: ["Node.js", "Express", "REST", "GraphQL", "gRPC", "WebSockets"],
+    items: [
+      "Node.js",
+      "Express",
+      "NestJS",
+      "REST",
+      "GraphQL",
+      "gRPC",
+      "tRPC",
+      "WebSockets",
+      "Microservices",
+    ],
   },
   {
     group: "Data",
-    items: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Kafka"],
+    items: [
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "Kafka",
+      "Bull MQ",
+      "Prisma",
+      "TypeORM",
+    ],
+  },
+  {
+    group: "DevOps",
+    items: [
+      "Docker",
+      "Kubernetes",
+      "Nx",
+      "Turborepo",
+      "AWS",
+      "CI/CD",
+      "GitHub Actions",
+    ],
   },
   {
     group: "AI / ML",
@@ -53,7 +84,7 @@ export const skills = [
   },
   {
     group: "Quality",
-    items: ["Jest", "Cypress", "Playwright", "Git", "GitLab", "CI/CD"],
+    items: ["Jest", "Vitest", "Cypress", "Playwright", "Git", "GitLab"],
   },
 ];
 
