@@ -92,7 +92,7 @@ export default function Hero() {
 
         <div className="h3-meta" style={{ transitionDelay: "860ms" }}>
           <span className="hm-n">
-            3<span className="plus">+</span>
+            2<span className="plus">+</span>
           </span>
           <span className="hm-t">years experience</span>
           <span className="hm-sep" />

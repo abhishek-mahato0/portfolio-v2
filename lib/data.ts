@@ -116,7 +116,7 @@ export const timeline = [
     role: "React Frontend Developer — Trainee",
     org: "Naxa Pvt Ltd",
     place: "Kathmandu",
-    span: "Sep 2023 — Jun 2024",
+    span: "Dec 2023 — Jun 2024",
     current: false,
     bullets: [
       "Shipped geospatial dashboards with high-performance map rendering for municipalities and NGOs.",
@@ -128,7 +128,7 @@ export const timeline = [
     role: "React Frontend Developer — Intern",
     org: "Naxa Pvt Ltd",
     place: "Kathmandu",
-    span: "Jun 2022 — Sep 2023",
+    span: "Sep 2023 - Dec 2023",
     current: false,
     bullets: [
       "Built dynamic survey forms with validation logic and map-based data visualization.",
